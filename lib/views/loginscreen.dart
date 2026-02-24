@@ -35,9 +35,9 @@ class _LoginScreenState extends State<LoginScreen> {
                    child: Icon(Icons.shopping_cart,size: 60, color: Colors.white,),
                 ),
                 SizedBox(height: 15,),
-               WidgetTextformfield(text: 'email',prefixIcon: Icon(Icons.email), ispass: false,),
+               WidgetTextformfield(text: 'email:',prefixIcon: Icon(Icons.email), ispass: false,),
                SizedBox(height: 10,),
-                WidgetTextformfield(text: 'pass.',prefixIcon: Icon(Icons.password_outlined),suffixIcon:Icon(Icons.visibility_off_outlined), 
+                WidgetTextformfield(text: 'pass.:',prefixIcon: Icon(Icons.password_outlined),suffixIcon:Icon(Icons.visibility_off_outlined), 
                 ispass: true,),
                  SizedBox(height: 10,),
                 WidgetButton(text: "login",onPressed:(){if(formkey.currentState!.validate()){
